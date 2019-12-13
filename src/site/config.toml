@@ -1,6 +1,6 @@
 baseURL = "https://serverlessdays.amsterdam/"
 languageCode = "en-us"
-title = "ServerlessDays Amsterdam"
+title = "ServerlessDays Amsterdam 2019"
 
 [params]
     logo = "/images/logo_serverless_amsterdam.svg"
