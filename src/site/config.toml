@@ -41,19 +41,19 @@ title = "ServerlessDays Amsterdam"
 [[params.sponsors.gold]]
     name = "Container Solutions"
     link = "https://www.container-solutions.com/"
-    logo = "./images/ContainerSolutionsArtboard.svg"
+    logo = "./images/sponsors/ContainerSolutionsArtboard.svg"
     width = 400
 
 [[params.sponsors.silver]]
     name = "Xpirit"
     link = "https://xpirit.com/"
-    logo = "./images/xpiritlogo_rgb_outlines.svg"
+    logo = "./images/sponsors/xpiritlogo_rgb_outlines.svg"
     width = 250
 
 [[params.sponsors.community]]
     name = "Thundra"
     link = "https://www.thundra.io/"
-    logo = "./images/Thundra-main-blue.svg"
+    logo = "./images/sponsors/Thundra-main-blue.svg"
     width = 220
 
 [params.tickets]
