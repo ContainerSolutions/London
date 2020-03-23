@@ -76,44 +76,31 @@
     <div class="title">
       <h1>Venue</h1>
     </div>
-    <div class="image" style="padding: 0px 20px;"><iframe src="{{.Site.Params.venue.map}}" width="400" height="300"
-        frameborder="0" style="border:0" allowfullscreen></iframe></div>
   </div>
   <div class="text">
-    <p>The Conference will be hosted at the <a href="{{.Site.Params.venue.link}}">{{.Site.Params.venue.name}}</a></p>
-    <p>{{.Site.Params.venue.text}}</p>
+    <p>The Conference will be hosted online. More information to come soon!</p>
   </div>
 </div>
 
-<a name="tickets"></a>
-<div class="section" style="border-top: 0;">
-  <div class="left">
-    <div class="title">
-      <h1>Tickets</h1>
+<a name="speakers"></a>
+<div class="section speakers">
+  <h1>Speakers</h1>
+  <div class="list">
+    {{ range where .Site.RegularPages "Section" "speakers" | shuffle }}
+    <div>
+      <div class="bio">
+        <a href="{{.URL}}">
+          <img src="{{.Params.image}}">
+        </a>
+        <h3>{{.Params.speaker}}</h3>
+        {{ with .Params.twitter }}
+        <a href="https://twitter.com/{{.}}" target="_blank">@{{.}}</a>
+        {{ end }}
+      </div>
     </div>
+    {{end}}
   </div>
-  <div class="text">
-    If you cannot see the ticket widget, please follow this&nbsp;<a href="https://www.eventbrite.com/e/serverlessdays-amsterdam-2020-tickets-96495772453">link</a>
-    <div id="eventbrite-widget-container-96495772453" class="ticketsFrame"></div>
-    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-    <script type="text/javascript">
-        var exampleCallback = function() {
-            console.log('Order complete!');
-        };
-
-        window.EBWidgets.createWidget({
-            // Required
-            widgetType: 'checkout',
-            eventId: '96495772453',
-            iframeContainerId: 'eventbrite-widget-container-96495772453',
-
-            // Optional
-            //iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-        });
-    </script>
-  </div>
 </div>
 
   <a name="sponsors"></a>
