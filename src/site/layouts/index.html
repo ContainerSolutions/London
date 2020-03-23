@@ -82,12 +82,23 @@
   </div>
 </div>
 
-<a name="tickets"></a>
-<div class="section" style="border-top: 0;">
-  <div class="left">
-    <div class="title">
-      <h1>Tickets</h1>
+<a name="speakers"></a>
+<div class="section speakers">
+  <h1>Speakers</h1>
+  <div class="list">
+    {{ range where .Site.RegularPages "Section" "speakers" | shuffle }}
+    <div>
+      <div class="bio">
+        <a href="{{.URL}}">
+          <img src="{{.Params.image}}">
+        </a>
+        <h3>{{.Params.speaker}}</h3>
+        {{ with .Params.twitter }}
+        <a href="https://twitter.com/{{.}}" target="_blank">@{{.}}</a>
+        {{ end }}
+      </div>
     </div>
+    {{end}}
   </div>
 
 </div>
