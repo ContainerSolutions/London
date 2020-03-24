@@ -33,10 +33,9 @@ title = "ServerlessDays Amsterdam"
     text = "Schedule Announcement"
 
 [params.venue]
-    name = "Pakhuis de Zwijger"
-    link = "https://dezwijger.nl/"
-    map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.6456449004804!2d4.919928715875416!3d52.37684507978742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609a80e2c8a2f%3A0x2d9e404fc8f71f8d!2sPakhuis+de+Zwijger!5e0!3m2!1sru!2snl!4v1550737160263"
-    text = "The venue Pakhuis de Zwijger provides a state-of-the-art AV system and catering, as well as a beautiful view of Amsterdam."
+    name = "online"
+    link = "https://discord.gg/d88jSxC"
+    text = "We will be streaming the event as well as having a lively discussion on our discord server"
 
 [[params.sponsors.gold]]
     name = "Container Solutions"
