@@ -5,6 +5,12 @@
 <meta name="description"
   content="A community based conference focusing on Serverless based platforms and technologies. {{.Site.Params.city}}, {{.Site.Params.date}}">
 <script src='https://js.tito.io/v1' async></script>
+<link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
+<style>
+.tito-ticket-name-wrapper, .tito-ticket-price-quantity-wrapper {
+  width: 100%;
+}
+</style>
 {{ end }}
 
 {{ define "main" }}
@@ -67,6 +73,19 @@
     <p>{{.Site.Title}} is part of ServerlessDays, a global series of events around the world
       fostering communities around serverless technologies.</p>
     <p>We follow and enforce the ServerlessDays <a href="#coc">Code of Conduct</a>.</p>
+  </div>
+</div>
+
+<a name="tickets"></a>
+<div class="section" style="border-top: 0; justify-content: flex-start;">
+  <div class="left">
+    <div class="title">
+      <h1>Tickets</h1>
+    </div>
+    <div class="ticketsFrame">
+      <!-- Place this where you want the widget to appear -->
+      <tito-widget event="serverlessdaysams/2020" style="width: 100%;"></tito-widget>
+    </div>
   </div>
 </div>
 
