@@ -5,6 +5,15 @@
 <meta name="description"
   content="A community based conference focusing on Serverless based platforms and technologies. {{.Site.Params.city}}, {{.Site.Params.date}}">
 <script src='https://js.tito.io/v1' async></script>
+<link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
+<style>
+.tito-wrapper {
+  float: left;
+}
+.tito-ticket-name-wrapper, .tito-ticket-price-quantity-wrapper {
+  width: 100%;
+}
+</style>
 {{ end }}
 
 {{ define "main" }}
@@ -60,13 +69,27 @@
     </div>
     <div class="image"><img width="200" height="200" src="{{.Site.Params.mascot}}"></div>
   </div>
-  <div class="text">
+  <div class="text" style="width: 60%;">
     <p>{{.Site.Title}} is a developer-oriented conference about serverless technologies.</p>
     <p>We believe in and encourage practical sessions, in which developers share their experience and lessons from
       real-world projects.</p>
     <p>{{.Site.Title}} is part of ServerlessDays, a global series of events around the world
       fostering communities around serverless technologies.</p>
     <p>We follow and enforce the ServerlessDays <a href="#coc">Code of Conduct</a>.</p>
+  </div>
+</div>
+
+<a name="tickets"></a>
+<div class="section" style="border-top: 0; justify-content: flex-start;">
+  <div class="left">
+    <div class="title">
+      <h1>Tickets</h1>
+    </div>
+    <div class="text ticketsFrame">
+      <p>If you cannot see the ticket widget, please follow this <a href="https://ti.to/serverlessdaysams/2020">link</a></p>
+      <!-- Place this where you want the widget to appear -->
+      <tito-widget event="serverlessdaysams/2020" style="width: 100%;"></tito-widget>
+    </div>
   </div>
 </div>
 
@@ -78,7 +101,7 @@
     </div>
     <div class="image"><img width="200" height="200" src="/images/Discord-Logo+Wordmark-Color.svg"></div>
   </div>
-  <div class="text">
+  <div class="text" style="width: 60%;">
     <p>The Conference will be hosted online. More information to come soon!</p>
     <p>To stay up to date with the newest developments, follow us on <a href="https://twitter.com/ServerlessDAms">twitter</a> or join our ServerlessDays Amsterdam <a href="https://discord.gg/d88jSxC">discord server</a></p>
   </div>

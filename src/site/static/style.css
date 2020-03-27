@@ -492,8 +492,8 @@ nav.top-nav .menu a.highlight:active {
 }
 
 .ticketsFrame {
-  justify-content: center;
-  width: 1000px;
+  justify-content: flex-start;
+  width: 60%;
 }
 
 .sponsors {
