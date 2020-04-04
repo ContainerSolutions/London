@@ -6,5 +6,4 @@ In this session you see how you can use Excel and Azure Serverless to bring the 
 speaker: Sia Ghassemi
 bio: "Sia Ghassemi is not just a passionate software architect and Microsoft MVP for the category Azure, he is also the founder of sia-consulting limited, a company specialized in GDPR, dev-security and cloud-security. He is a frequent speaker and workshop-lead at different conferences throughout germany and canada. "
 image: /images/speakers/Sia_Ghassemi.jpg
-twitter: dersia_
 ---
