@@ -29,8 +29,9 @@ title = "ServerlessDays Amsterdam"
     done = true
 
 [[params.dates]]
-    date = "March 7, 2020"
-    text = "Schedule Announcement"
+    date = "April 4, 2020"
+    text = "Speaker Announcement"
+    done = true
 
 [params.venue]
     name = "online"

@@ -1,0 +1,11 @@
+---
+title: "Serverless - how to speed up tests over 300 times and achieve continuous feedback?"
+description: "Modern software development methodologies and approaches help to increase delivery speed while still caring about software quality. However, if we think about manual regression tests, they are not only time consuming and repeatable, but also feedback time is quite high. These are the reasons why regression tests are often automated.
+Automated tests can provide results faster and it’s possible to execute them more frequently than manual ones. They can decrease the overall time needed for tests, but what's probably even more important, they allow to test and receive feedback earlier in the development process. It's essential if we want to release and deliver business value faster and more frequently.
+But what if we have more and more tests and even automated execution of them takes too much time - 10 minutes... 30 minutes... maybe even hours? Should we consider the ability to execute full tests set just a few times a day as something normal? Is adding more compute resources the only option to reduce the execution time? Or maybe there are too many high-level tests and some of them should be replaced by low-level ones according to the Test Pyramid? Is the Test Pyramid still valid in the cloud world?
+During the presentation, you will see how the serverless cloud services like AWS Lambda may be used to run tests in the highly parallelized environment that can speed up test execution even hundreds of times."
+speaker: Tomasz Konieczny
+bio: "Senior QA Engineer at Ro. Interested in a wide range of QA related subjects - from test architecture to server setups. Privately Linux user interested in open-source software and generally speaking technology. DevOps and automation enthusiast. Speaker at multiple conferences: TestCon Moscow, Testing Stage, What The H@ck, Testing United, Devoxx Poland, 4Developers, TestWarez (four times), Warsaw IT Days, TestCamp, TestFest, ConSelenium (twice), PyCode and Quality Excites."
+image: /images/speakers/Tomasz_Konieczny.jpg
+twitter: tkoniecznyPL
+---
