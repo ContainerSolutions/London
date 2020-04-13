@@ -60,7 +60,7 @@ title = "ServerlessDays Amsterdam"
     name = "JetBrains"
     link = "https://www.jetbrains.com/"
     logo = "./images/sponsors/jetbrains-variant-4.svg"
-    width = 120
+    width = 170
 
 [params.tickets]
     titolink = "https://ti.to/serverlessdaysams/2020"
