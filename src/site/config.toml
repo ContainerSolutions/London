@@ -56,6 +56,12 @@ title = "ServerlessDays Amsterdam"
     logo = "./images/sponsors/Thundra-main-blue.svg"
     width = 220
 
+[[params.sponsors.raffle]]
+    name = "JetBrains"
+    link = "https://www.jetbrains.com/"
+    logo = "./images/sponsors/jetbrains-variant-4.svg"
+    width = 120
+
 [params.tickets]
     titolink = "https://ti.to/serverlessdaysams/2020"
     price = "60 EUR"

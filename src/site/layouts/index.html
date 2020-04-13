@@ -160,6 +160,16 @@
       {{ end }}
     </div>
 
+    <div class="separator">&nbsp;</div>
+
+    <h2>Raffle Sponsors</h2>
+    <div class="list community">
+      {{ range .Site.Params.sponsors.raffle }}
+      <div><a href="{{ .link }}" target="_blank"><img width="{{.width}}px" class="grow" src="{{ .logo }}"
+            title="{{ .name }}" alt="{{ .name }}"></a></div>
+      {{ end }}
+    </div>
+
     <p>&nbsp;</p>
     <p>For more information on becoming a sponsor, please download our <a href="{{.Site.Params.prospectus}}"
         target="_blank">prospectus</a>.</p>
