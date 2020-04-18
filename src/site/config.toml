@@ -62,6 +62,12 @@ title = "ServerlessDays Amsterdam"
     logo = "./images/sponsors/jetbrains-variant-4.svg"
     width = 170
 
+[[params.sponsors.raffle]]
+    name = "O'Reilly"
+    link = "https://www.oreilly.com/"
+    logo = "./images/sponsors/oreilly_logo_mark_red.svg"
+    width = 170
+
 [params.tickets]
     titolink = "https://ti.to/serverlessdaysams/2020"
     price = "60 EUR"
