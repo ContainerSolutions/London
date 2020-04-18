@@ -125,7 +125,26 @@
     </div>
     {{end}}
   </div>
+</div>
 
+<a name="hosts"></a>
+<div class="section speakers">
+  <h1>Hosts</h1>
+  <div class="list">
+    {{ range where .Site.RegularPages "Section" "hosts" | shuffle }}
+    <div>
+      <div class="bio">
+        <a href="{{.URL}}">
+          <img src="{{.Params.image}}">
+        </a>
+        <h3>{{.Params.speaker}}</h3>
+        {{ with .Params.twitter }}
+        <a href="https://twitter.com/{{.}}" target="_blank">@{{.}}</a>
+        {{ end }}
+      </div>
+    </div>
+    {{end}}
+  </div>
 </div>
 
   <a name="sponsors"></a>
