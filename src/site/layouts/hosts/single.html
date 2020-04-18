@@ -1,0 +1,24 @@
+{{ define "head" }}
+<title>{{.Params.speaker}} - Host</title>
+<meta property="og:title" content="{{.Params.speaker}} - Host">
+<meta property="og:image" content="{{.Params.image | absURL}}">
+{{ end }}
+
+{{ define "main" }}
+<div class="breadcrumb">&nbsp;</div>
+
+<div class="section talk">
+  <div class="photo">
+      <img src="{{.Params.image}}">      
+  </div>
+  <div class="text">
+    <h1>{{.Params.speaker}}</h1>
+    {{with .Params.twitter}}
+    <div><a href="https://twitter.com/{{.}}" target="_blank">@{{.}}</a></div>
+    {{end}}
+    <p>{{.Params.bio}}</p>
+
+    <a class="button" href="/#agenda">Back to the agenda</a>
+  </div>
+</div>
+{{ end }}
