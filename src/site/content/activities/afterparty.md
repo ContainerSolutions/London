@@ -1,6 +1,6 @@
 ---
 title: Afterparty
 layout: afterparty
-description: Afterparty starts 6:30pm at Café Delirium, only 8 minutes to walk or 2 minutes by tram from the conference venue.
+description: Our afterparty will take place remotely on our discord server. We will open a video chatroom for this, so make sure to wear something nice :)
 image: /images/UnicornDutchified.png
 ---

@@ -339,6 +339,7 @@ nav.top-nav .menu a.highlight:active {
 .section.agenda .row .keynote:hover,
 .section.agenda .row .abstract:hover,
 .section.agenda .row .lunch:hover,
+.section.agenda .row .panel:hover,
 .section.agenda .row .afterparty:hover,
 .section.agenda .row .lightning:hover,
 .section.agenda .row .talk:hover {
@@ -364,12 +365,17 @@ nav.top-nav .menu a.highlight:active {
 
 .section.agenda .row .keynote {
   flex: 2 0 20%;
-  background-color: #cc171a;
+  background-color: #22b4a7;
 }
 
 .section.agenda .row .lightning {
   flex: 2 0 10%;
-  background-color: orange;
+  border: solid 3px #22b4a7;
+  background-color: white;
+}
+.section.agenda .row .lightning strong,
+.section.agenda .row .lightning span {
+  color: #22b4a7;
 }
 
 .section.agenda .row .abstract {
@@ -391,6 +397,12 @@ nav.top-nav .menu a.highlight:active {
 
 .section.agenda .row .draft span {
   color: orange;
+}
+
+.section.agenda .row .panel {
+  flex: 2 0 30%;
+  background-color: orange;
+  cursor: pointer;
 }
 
 .section.agenda .row .lunch,
