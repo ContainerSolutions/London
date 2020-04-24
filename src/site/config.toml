@@ -71,3 +71,88 @@ title = "ServerlessDays Amsterdam"
 [params.tickets]
     titolink = "https://ti.to/serverlessdaysams/2020"
     price = "60 EUR"
+
+[[params.agenda]]
+    time = "9:00 - 9:10"
+    type = "coffee"
+    title = "Opening Remarks"
+[[params.agenda]]
+    time = "9:10 - 9:45"
+    type = "keynote"
+    talk = "ant-stanley"
+[[params.agenda]]
+    time = "9:50 - 10:25"
+    type = "talk"
+    talk = "tomasz-konieczny"
+[[params.agenda]]
+    time = "10:25 - 10:35"
+    type = "coffee"
+    title = "Break"
+[[params.agenda]]
+    time = "10:35 - 11:10"
+    type = "talk"
+    talk = "riccardo-mocchetti"
+[[params.agenda]]
+    time = "11:15 - 11:45"
+    type = "talk"
+    talk = "aymen-chetoui"
+[[params.agenda]]
+    time = "11:50 - 12:00"
+    type = "coffee"
+    title = "Break"
+[[params.agenda]]
+    time = "12:00 - 12:10"
+    type = "lightning"
+    talk = "ebru-cucen"
+[[params.agenda]]
+    time = "12:15 - 12:40"
+    type = "panel"
+    talk = "experts-panel"
+[[params.agenda]]
+    time = "12:40 - 13:20"
+    type = "coffee"
+    title = "Lunch Break"
+[[params.agenda]]
+    time = "13:20 - 13:55"
+    type = "talk"
+    talk = "sven-al-hamad"
+[[params.agenda]]
+    time = "14:00 - 14:35"
+    type = "talk"
+    talk = "josh-carlisle"
+[[params.agenda]]
+    time = "14:35 - 14:45"
+    type = "coffee"
+    title = "Break"
+[[params.agenda]]
+    time = "14:45 - 15:20"
+    type = "talk"
+    talk = "kayz-shimizu"
+[[params.agenda]]
+    time = "15:25 - 16:00"
+    type = "talk"
+    talk = "sia-ghassemi"
+[[params.agenda]]
+    time = "16:00 - 16:10"
+    type = "coffee"
+    title = "Break"
+[[params.agenda]]
+    time = "16:10 - 16:20"
+    type = "lightning"
+    talk = "sebastien-goasguen"
+[[params.agenda]]
+    time = "16:25 - 16:50"
+    type = "panel"
+    talk = "experts-panel"
+[[params.agenda]]
+    time = "16:55 - 17:30"
+    type = "keynote"
+    talk = "simona-cotin"
+[[params.agenda]]
+    time = "17:35 - 17:50"
+    type = "coffee"
+    talk = "Raffle & Closing Remarks"
+[[params.agenda]]
+    time = "17:50 - open end"
+    type = "afterparty"
+    talk = "Afterparty"

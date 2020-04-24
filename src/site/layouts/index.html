@@ -93,6 +93,39 @@
   </div>
 </div>
 
+<a name="agenda"></a>
+<div class="section agenda" style="border: 0">
+  <div class="header-button">
+    <h1>Agenda</h1>
+  </div>
+
+  <h2>{{.Site.Params.date}}</h2>
+
+  <div class="row">
+    {{ $site := .Site }}
+    {{ range .Site.Params.agenda }}
+    {{ $item := . }}
+    {{ with .talk }}
+
+    {{ with $site.GetPage . }}
+    <div class="{{$item.type}}" onclick="location='{{.URL}}';">
+      <span>{{$item.time}}</span>
+      <strong>{{.Title}}</strong>
+      <span>{{.Params.speaker}}{{with .Params.secondSpeaker}} &amp; {{.}}{{end}}</span>
+    </div>
+    {{ end }}
+
+    {{ else }}
+    <div class="{{.type}}">
+      <span>{{.time}}</span>
+      <strong>{{.title}}</strong>
+      <span>{{.description}}</span>
+    </div>
+    {{end}}
+    {{end}}
+  </div>
+</div>
+
 <a name="venue"></a>
 <div class="section" style="border-top: 0;">
   <div class="left">
