@@ -155,4 +155,4 @@ title = "ServerlessDays Amsterdam"
 [[params.agenda]]
     time = "17:50 - open end"
     type = "afterparty"
-    talk = "Afterparty"
+    title = "Afterparty"
