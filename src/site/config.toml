@@ -127,7 +127,7 @@ title = "ServerlessDays Amsterdam"
 [[params.agenda]]
     time = "14:45 - 15:20"
     type = "talk"
-    talk = "kayz-shimizu"
+    talk = "katy-shimizu"
 [[params.agenda]]
     time = "15:25 - 16:00"
     type = "talk"
