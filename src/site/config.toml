@@ -45,6 +45,12 @@ title = "ServerlessDays Amsterdam"
     width = 400
 
 [[params.sponsors.silver]]
+    name = "Microsoft"
+    link = "https://www.microsoft.com"
+    logo = "./images/sponsors/Microsoft_logo.svg"
+    width = 250
+
+[[params.sponsors.silver]]
     name = "Xpirit"
     link = "https://xpirit.com/"
     logo = "./images/sponsors/xpiritlogo_rgb_outlines.svg"
