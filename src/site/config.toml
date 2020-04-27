@@ -133,7 +133,7 @@ title = "ServerlessDays Amsterdam"
 [[params.agenda]]
     time = "14:45 - 15:20"
     type = "talk"
-    talk = "kayz-shimizu"
+    talk = "katy-shimizu"
 [[params.agenda]]
     time = "15:25 - 16:00"
     type = "talk"
@@ -160,5 +160,5 @@ title = "ServerlessDays Amsterdam"
     talk = "Raffle & Closing Remarks"
 [[params.agenda]]
     time = "17:50 - open end"
-    type = "afterparty"
+    type = "activity"
     talk = "Afterparty"

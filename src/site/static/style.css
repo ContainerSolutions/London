@@ -363,11 +363,6 @@ nav.top-nav .menu a.highlight:active {
   flex-grow: 0;
 }
 
-.section.agenda .row .keynote {
-  flex: 2 0 20%;
-  background-color: #22b4a7;
-}
-
 .section.agenda .row .lightning {
   flex: 2 0 10%;
   border: solid 3px #22b4a7;
@@ -399,14 +394,15 @@ nav.top-nav .menu a.highlight:active {
   color: orange;
 }
 
-.section.agenda .row .panel {
+.section.agenda .row .keynote {
   flex: 2 0 30%;
   background-color: orange;
   cursor: pointer;
 }
 
 .section.agenda .row .lunch,
-.section.agenda .row .afterparty {
+.section.agenda .row .panel,
+.section.agenda .row .activity {
   flex: 2 0 30%;
   background-color: #7894d9;
   cursor: pointer;
