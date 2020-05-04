@@ -157,7 +157,7 @@ title = "ServerlessDays Amsterdam"
 [[params.agenda]]
     time = "17:35 - 17:50"
     type = "coffee"
-    talk = "Raffle & Closing Remarks"
+    title = "Raffle & Closing Remarks"
 [[params.agenda]]
     time = "17:50 - open end"
     type = "activity"
